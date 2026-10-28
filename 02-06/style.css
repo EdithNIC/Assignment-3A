@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap");
 
 h1 {
+  animation-name: typing;
+  animation-duration: 3s;
+  animation-timing-function: steps(14);
   color: #433f55;
   font-family: "Fira Mono", monospace;
   overflow: hidden;
@@ -10,6 +13,14 @@ h1 {
   letter-spacing: 0.15em;
 }
 
+@keyframes typing {
+  0% {
+    width: 0px;
+  }
+  100% {
+    width: 100%;
+  }
+}
 @keyframes blinking {
   0%,
   100% {
