@@ -40,12 +40,12 @@ span:nth-child(5) {
 
 span:nth-child(6) {
   margin-right: 0.15em;
-  animation-delay: 0.1s;
+  animation-delay: 1s;
 }
 
 span:nth-child(7) {
   margin-right: 0.15em;
-  animation-delay: 0.12s;
+  animation-delay: 1.2s;
 }
 
 /* other styles */
