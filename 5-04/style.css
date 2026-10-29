@@ -2,6 +2,15 @@ h1 {
   font-family: "Recursive", "Times New Roman";
   font-size: 10rem;
 }
+@keyframes vars {
+  0% {
+    font-variation-settings:
+      "CASL" 1,
+      "CRSV" 1,
+      "wght" 300,
+      "slnt" 0;
+  }
+}
 
 body {
   background: #433f55;
