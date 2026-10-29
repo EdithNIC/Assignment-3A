@@ -3,7 +3,8 @@ h1 {
   font-size: 10rem;
 }
 @keyframes vars {
-  0% {
+  0%,
+  100% {
     font-variation-settings:
       "CASL" 1,
       "CRSV" 1,
