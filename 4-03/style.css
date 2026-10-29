@@ -2,9 +2,7 @@
 }
 
 #outline {
- 
-} 
-
+}
 
 @keyframes beat {
   0% {
@@ -20,30 +18,27 @@
 
 @keyframes fade {
   0% {
-    opacity:1;
- }
-  
+    opacity: 1;
+  }
+
   100% {
     opacity: 0;
   }
 }
 
-
-
 /* other styles */
 
 body {
   display: flex;
-  justify-content:center;
-  margin-top:6rem;
+  justify-content: center;
+  margin-top: 6rem;
   background: #fbacb3;
 }
 
 .wrap {
-  width:15vw;
+  width: 15vw;
   display: flex;
 }
-
 
 .cls-1 {
   fill: #c32d4f;
